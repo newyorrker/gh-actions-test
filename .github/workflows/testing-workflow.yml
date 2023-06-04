@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   build:
-    name: Running
+    name: Test
 
     runs-on: ubuntu-latest
 
