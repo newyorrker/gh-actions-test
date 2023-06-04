@@ -7,7 +7,7 @@ export class Queue {
   }
 
   enqueue(item: any) {
-    // this._items.push(item);
+    this._items.push(item);
     return this;
   }
 
