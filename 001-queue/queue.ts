@@ -3,11 +3,11 @@ export class Queue {
   private _items: any[] = [];
 
   get items() {
-    //return this._items;
+    return this._items;
   }
 
   enqueue(item: any) {
-    //this._items.push(item);
+    // this._items.push(item);
     return this;
   }
 
